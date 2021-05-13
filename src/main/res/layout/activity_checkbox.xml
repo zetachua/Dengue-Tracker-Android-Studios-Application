@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation" />
+    <!-- ~Buttons -->
+
+    <ScrollView
+    android:layout_width="403dp"
+    android:layout_height="652dp"
+    android:layout_above="@+id/bottom_navigation"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="11dp"
+    android:layout_marginBottom="12dp"
+    android:fillViewport="true"
+    android:scrollY="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Which of these Dengue Symptoms do you have?"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <CheckBox
+                android:id="@+id/check_fever"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fever" />
+
+            <CheckBox
+                android:id="@+id/check_severe_headache"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Severe Headache" />
+
+            <CheckBox
+                android:id="@+id/check_joint_muscle_ache"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Joint/Muscle Ache" />
+
+            <CheckBox
+                android:id="@+id/check_skin_rash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Skin Rash" />
+
+            <CheckBox
+                android:id="@+id/check_nausea_vomit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nausea/Vomiting" />
+
+            <CheckBox
+                android:id="@+id/check_mild_bleeding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mild Bleeding" />
+
+            <Button
+                android:id="@+id/calculate_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_round"
+                android:text="Calculate Result" />
+
+            <TextView
+                android:id="@+id/result"
+                style="@android:style/TextAppearance.DeviceDefault.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#FF4A4A4A"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/nearby_clinics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_round"
+                android:onClick="showPopup"
+                android:text="Select N Clinics"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

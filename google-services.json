@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "738399675745",
+    "project_id": "searchlocationapp-d3b6c",
+    "storage_bucket": "searchlocationapp-d3b6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738399675745:android:a5b251dae34c80b57dd120",
+        "android_client_info": {
+          "package_name": "com.example.searchlocationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738399675745-a9ofihrj8u1dkeho1nv264t5sihtm7no.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqMcuzYQ1--FanPmqEZkEg5r_OmuOdTo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738399675745-a9ofihrj8u1dkeho1nv264t5sihtm7no.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

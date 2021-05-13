@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SearchLocationApp</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <string name="tracking_enabled_notif">Tracking is currently enabled. Tap to cancel.</string>
+    <string name="test_email">test@test.com</string>
+    <string name="test_password">testpassword</string>
+    <string name="firebase_path">location</string>
+
+
+    <string name="action_geolocate">Pick Place</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+
+</resources>
