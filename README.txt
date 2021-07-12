@@ -1,5 +1,10 @@
 READ-ME
 
+Dengue Tracker Application Singapore
+- shows dengue clusters
+- basic symptom checker with different intensity mutlipliers
+- provides nearest clinics to current location
+
 For users, here are some pre-conditions to use the application:
 1. Accept location permission, if denied accidently please refresh application once more and permissions access will prompt once again
 2. LiveLocation marker: requires user to wait 5-30 seconds to load, or move around 5 footsteps in a location with good reception
